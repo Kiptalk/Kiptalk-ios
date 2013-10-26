@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1547D077181C3C9300513492 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D076181C3C9300513492 /* Post.m */; };
+		1547D07A181C3DF300513492 /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D079181C3DF300513492 /* Expression.m */; };
+		1547D07D181C3E8000513492 /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D07C181C3E8000513492 /* Language.m */; };
+		1547D080181C419400513492 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D07F181C419400513492 /* Question.m */; };
 		1586405D180F5B52004B212B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1586405C180F5B52004B212B /* Foundation.framework */; };
 		1586405F180F5B52004B212B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1586405E180F5B52004B212B /* CoreGraphics.framework */; };
 		15864061180F5B52004B212B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15864060180F5B52004B212B /* UIKit.framework */; };
@@ -21,6 +25,7 @@
 		1586407E180F5B52004B212B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15864060180F5B52004B212B /* UIKit.framework */; };
 		15864086180F5B52004B212B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15864084180F5B52004B212B /* InfoPlist.strings */; };
 		15864088180F5B52004B212B /* kiptalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15864087180F5B52004B212B /* kiptalkTests.m */; };
+		15864097180F5CBB004B212B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 15864096180F5CBB004B212B /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1547D075181C3C9300513492 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Post.h; path = kiptalk/models/Post.h; sourceTree = "<group>"; };
+		1547D076181C3C9300513492 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Post.m; path = kiptalk/models/Post.m; sourceTree = "<group>"; };
+		1547D078181C3DF300513492 /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Expression.h; path = kiptalk/models/Expression.h; sourceTree = "<group>"; };
+		1547D079181C3DF300513492 /* Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Expression.m; path = kiptalk/models/Expression.m; sourceTree = "<group>"; };
+		1547D07B181C3E8000513492 /* Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Language.h; path = kiptalk/models/Language.h; sourceTree = "<group>"; };
+		1547D07C181C3E8000513492 /* Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Language.m; path = kiptalk/models/Language.m; sourceTree = "<group>"; };
+		1547D07E181C419400513492 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = kiptalk/models/Question.h; sourceTree = "<group>"; };
+		1547D07F181C419400513492 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = kiptalk/models/Question.m; sourceTree = "<group>"; };
 		15864059180F5B52004B212B /* kiptalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kiptalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1586405C180F5B52004B212B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1586405E180F5B52004B212B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +66,8 @@
 		15864083180F5B52004B212B /* kiptalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kiptalkTests-Info.plist"; sourceTree = "<group>"; };
 		15864085180F5B52004B212B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15864087180F5B52004B212B /* kiptalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kiptalkTests.m; sourceTree = "<group>"; };
+		15864095180F5CBB004B212B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = kiptalk/models/User.h; sourceTree = "<group>"; };
+		15864096180F5CBB004B212B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = kiptalk/models/User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +127,9 @@
 		15864062180F5B52004B212B /* kiptalk */ = {
 			isa = PBXGroup;
 			children = (
+				15864094180F5C63004B212B /* controllers */,
+				15864093180F5C5C004B212B /* views */,
+				15864091180F5C3C004B212B /* models */,
 				1586406B180F5B52004B212B /* HomeAppDelegate.h */,
 				1586406C180F5B52004B212B /* HomeAppDelegate.m */,
 				1586406E180F5B52004B212B /* Main.storyboard */,
@@ -150,6 +168,38 @@
 				15864084180F5B52004B212B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15864091180F5C3C004B212B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1547D07B181C3E8000513492 /* Language.h */,
+				1547D07C181C3E8000513492 /* Language.m */,
+				15864095180F5CBB004B212B /* User.h */,
+				15864096180F5CBB004B212B /* User.m */,
+				1547D075181C3C9300513492 /* Post.h */,
+				1547D076181C3C9300513492 /* Post.m */,
+				1547D078181C3DF300513492 /* Expression.h */,
+				1547D079181C3DF300513492 /* Expression.m */,
+				1547D07E181C419400513492 /* Question.h */,
+				1547D07F181C419400513492 /* Question.m */,
+			);
+			name = models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		15864093180F5C5C004B212B /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		15864094180F5C63004B212B /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +300,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1547D07A181C3DF300513492 /* Expression.m in Sources */,
+				1547D077181C3C9300513492 /* Post.m in Sources */,
+				15864097180F5CBB004B212B /* User.m in Sources */,
 				15864069180F5B52004B212B /* main.m in Sources */,
 				1586406D180F5B52004B212B /* HomeAppDelegate.m in Sources */,
+				1547D080181C419400513492 /* Question.m in Sources */,
 				15864073180F5B52004B212B /* HomeViewController.m in Sources */,
+				1547D07D181C3E8000513492 /* Language.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +516,7 @@
 				1586408D180F5B52004B212B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1586408E180F5B52004B212B /* Build configuration list for PBXNativeTarget "kiptalkTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +525,7 @@
 				15864090180F5B52004B212B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
