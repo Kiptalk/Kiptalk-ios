@@ -11,6 +11,8 @@
 		1547D07A181C3DF300513492 /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D079181C3DF300513492 /* Expression.m */; };
 		1547D07D181C3E8000513492 /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D07C181C3E8000513492 /* Language.m */; };
 		1547D080181C419400513492 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D07F181C419400513492 /* Question.m */; };
+		1547D083181C647A00513492 /* AskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D082181C647A00513492 /* AskViewController.m */; };
+		1547D086181C696800513492 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D085181C696800513492 /* MeViewController.m */; };
 		1586405D180F5B52004B212B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1586405C180F5B52004B212B /* Foundation.framework */; };
 		1586405F180F5B52004B212B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1586405E180F5B52004B212B /* CoreGraphics.framework */; };
 		15864061180F5B52004B212B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15864060180F5B52004B212B /* UIKit.framework */; };
@@ -47,6 +49,10 @@
 		1547D07C181C3E8000513492 /* Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Language.m; path = kiptalk/models/Language.m; sourceTree = "<group>"; };
 		1547D07E181C419400513492 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = kiptalk/models/Question.h; sourceTree = "<group>"; };
 		1547D07F181C419400513492 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = kiptalk/models/Question.m; sourceTree = "<group>"; };
+		1547D081181C647A00513492 /* AskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskViewController.h; sourceTree = "<group>"; };
+		1547D082181C647A00513492 /* AskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AskViewController.m; sourceTree = "<group>"; };
+		1547D084181C696800513492 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		1547D085181C696800513492 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 		15864059180F5B52004B212B /* kiptalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kiptalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1586405C180F5B52004B212B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1586405E180F5B52004B212B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -133,8 +139,8 @@
 				1586406B180F5B52004B212B /* HomeAppDelegate.h */,
 				1586406C180F5B52004B212B /* HomeAppDelegate.m */,
 				1586406E180F5B52004B212B /* Main.storyboard */,
-				15864071180F5B52004B212B /* HomeViewController.h */,
-				15864072180F5B52004B212B /* HomeViewController.m */,
+				1547D084181C696800513492 /* MeViewController.h */,
+				1547D085181C696800513492 /* MeViewController.m */,
 				15864074180F5B52004B212B /* Images.xcassets */,
 				15864063180F5B52004B212B /* Supporting Files */,
 			);
@@ -198,6 +204,10 @@
 		15864094180F5C63004B212B /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				15864071180F5B52004B212B /* HomeViewController.h */,
+				15864072180F5B52004B212B /* HomeViewController.m */,
+				1547D081181C647A00513492 /* AskViewController.h */,
+				1547D082181C647A00513492 /* AskViewController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -300,9 +310,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1547D083181C647A00513492 /* AskViewController.m in Sources */,
 				1547D07A181C3DF300513492 /* Expression.m in Sources */,
 				1547D077181C3C9300513492 /* Post.m in Sources */,
 				15864097180F5CBB004B212B /* User.m in Sources */,
+				1547D086181C696800513492 /* MeViewController.m in Sources */,
 				15864069180F5B52004B212B /* main.m in Sources */,
 				1586406D180F5B52004B212B /* HomeAppDelegate.m in Sources */,
 				1547D080181C419400513492 /* Question.m in Sources */,
