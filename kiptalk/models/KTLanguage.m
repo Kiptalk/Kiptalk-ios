@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Armuro. All rights reserved.
 //
 
-#import "Language.h"
+#import "KTLanguage.h"
 
-@implementation Language
+@implementation KTLanguage
 
 @end

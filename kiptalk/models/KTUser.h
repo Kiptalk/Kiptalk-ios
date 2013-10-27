@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Language.h"
+#import "KTLanguage.h"
 
-@interface User : NSObject
+@interface KTUser : NSObject
 
 
 //stores the unique id of the user
@@ -49,7 +49,7 @@
 @property (strong, nonatomic) NSMutableArray *targetLanguages;
 
 //stores an array of the native language(s) of the user
-@property (strong, nonatomic) Language *primaryLanguage;
+@property (strong, nonatomic) KTLanguage *primaryLanguage;
 
 //stores the country of origin of the user
 @property (strong, nonatomic) NSString *countryOfOrigin;

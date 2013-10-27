@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1547D077181C3C9300513492 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D076181C3C9300513492 /* Post.m */; };
-		1547D07A181C3DF300513492 /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D079181C3DF300513492 /* Expression.m */; };
-		1547D07D181C3E8000513492 /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D07C181C3E8000513492 /* Language.m */; };
-		1547D080181C419400513492 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D07F181C419400513492 /* Question.m */; };
-		1547D083181C647A00513492 /* AskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D082181C647A00513492 /* AskViewController.m */; };
-		1547D086181C696800513492 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D085181C696800513492 /* MeViewController.m */; };
+		1547D077181C3C9300513492 /* KTPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D076181C3C9300513492 /* KTPost.m */; };
+		1547D07A181C3DF300513492 /* KTExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D079181C3DF300513492 /* KTExpression.m */; };
+		1547D07D181C3E8000513492 /* KTLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D07C181C3E8000513492 /* KTLanguage.m */; };
+		1547D080181C419400513492 /* KTQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D07F181C419400513492 /* KTQuestion.m */; };
+		1547D083181C647A00513492 /* KTAskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D082181C647A00513492 /* KTAskViewController.m */; };
+		1547D086181C696800513492 /* KTMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D085181C696800513492 /* KTMeViewController.m */; };
 		1586405D180F5B52004B212B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1586405C180F5B52004B212B /* Foundation.framework */; };
 		1586405F180F5B52004B212B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1586405E180F5B52004B212B /* CoreGraphics.framework */; };
 		15864061180F5B52004B212B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15864060180F5B52004B212B /* UIKit.framework */; };
 		15864067180F5B52004B212B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15864065180F5B52004B212B /* InfoPlist.strings */; };
 		15864069180F5B52004B212B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15864068180F5B52004B212B /* main.m */; };
-		1586406D180F5B52004B212B /* HomeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1586406C180F5B52004B212B /* HomeAppDelegate.m */; };
+		1586406D180F5B52004B212B /* KTHomeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1586406C180F5B52004B212B /* KTHomeAppDelegate.m */; };
 		15864070180F5B52004B212B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1586406E180F5B52004B212B /* Main.storyboard */; };
-		15864073180F5B52004B212B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15864072180F5B52004B212B /* HomeViewController.m */; };
+		15864073180F5B52004B212B /* KTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15864072180F5B52004B212B /* KTHomeViewController.m */; };
 		15864075180F5B52004B212B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15864074180F5B52004B212B /* Images.xcassets */; };
 		1586407C180F5B52004B212B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1586407B180F5B52004B212B /* XCTest.framework */; };
 		1586407D180F5B52004B212B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1586405C180F5B52004B212B /* Foundation.framework */; };
 		1586407E180F5B52004B212B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15864060180F5B52004B212B /* UIKit.framework */; };
 		15864086180F5B52004B212B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15864084180F5B52004B212B /* InfoPlist.strings */; };
 		15864088180F5B52004B212B /* kiptalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15864087180F5B52004B212B /* kiptalkTests.m */; };
-		15864097180F5CBB004B212B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 15864096180F5CBB004B212B /* User.m */; };
+		15864097180F5CBB004B212B /* KTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15864096180F5CBB004B212B /* KTUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,18 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1547D075181C3C9300513492 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Post.h; path = kiptalk/models/Post.h; sourceTree = "<group>"; };
-		1547D076181C3C9300513492 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Post.m; path = kiptalk/models/Post.m; sourceTree = "<group>"; };
-		1547D078181C3DF300513492 /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Expression.h; path = kiptalk/models/Expression.h; sourceTree = "<group>"; };
-		1547D079181C3DF300513492 /* Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Expression.m; path = kiptalk/models/Expression.m; sourceTree = "<group>"; };
-		1547D07B181C3E8000513492 /* Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Language.h; path = kiptalk/models/Language.h; sourceTree = "<group>"; };
-		1547D07C181C3E8000513492 /* Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Language.m; path = kiptalk/models/Language.m; sourceTree = "<group>"; };
-		1547D07E181C419400513492 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = kiptalk/models/Question.h; sourceTree = "<group>"; };
-		1547D07F181C419400513492 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = kiptalk/models/Question.m; sourceTree = "<group>"; };
-		1547D081181C647A00513492 /* AskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskViewController.h; sourceTree = "<group>"; };
-		1547D082181C647A00513492 /* AskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AskViewController.m; sourceTree = "<group>"; };
-		1547D084181C696800513492 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
-		1547D085181C696800513492 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		1547D075181C3C9300513492 /* KTPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTPost.h; path = kiptalk/models/KTPost.h; sourceTree = "<group>"; };
+		1547D076181C3C9300513492 /* KTPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTPost.m; path = kiptalk/models/KTPost.m; sourceTree = "<group>"; };
+		1547D078181C3DF300513492 /* KTExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTExpression.h; path = kiptalk/models/KTExpression.h; sourceTree = "<group>"; };
+		1547D079181C3DF300513492 /* KTExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTExpression.m; path = kiptalk/models/KTExpression.m; sourceTree = "<group>"; };
+		1547D07B181C3E8000513492 /* KTLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTLanguage.h; path = kiptalk/models/KTLanguage.h; sourceTree = "<group>"; };
+		1547D07C181C3E8000513492 /* KTLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTLanguage.m; path = kiptalk/models/KTLanguage.m; sourceTree = "<group>"; };
+		1547D07E181C419400513492 /* KTQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTQuestion.h; path = kiptalk/models/KTQuestion.h; sourceTree = "<group>"; };
+		1547D07F181C419400513492 /* KTQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTQuestion.m; path = kiptalk/models/KTQuestion.m; sourceTree = "<group>"; };
+		1547D081181C647A00513492 /* KTAskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTAskViewController.h; sourceTree = "<group>"; };
+		1547D082181C647A00513492 /* KTAskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTAskViewController.m; sourceTree = "<group>"; };
+		1547D084181C696800513492 /* KTMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTMeViewController.h; sourceTree = "<group>"; };
+		1547D085181C696800513492 /* KTMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTMeViewController.m; sourceTree = "<group>"; };
 		15864059180F5B52004B212B /* kiptalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kiptalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1586405C180F5B52004B212B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1586405E180F5B52004B212B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,19 +61,19 @@
 		15864066180F5B52004B212B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15864068180F5B52004B212B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1586406A180F5B52004B212B /* kiptalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kiptalk-Prefix.pch"; sourceTree = "<group>"; };
-		1586406B180F5B52004B212B /* HomeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeAppDelegate.h; sourceTree = "<group>"; };
-		1586406C180F5B52004B212B /* HomeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeAppDelegate.m; sourceTree = "<group>"; };
+		1586406B180F5B52004B212B /* KTHomeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTHomeAppDelegate.h; sourceTree = "<group>"; };
+		1586406C180F5B52004B212B /* KTHomeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTHomeAppDelegate.m; sourceTree = "<group>"; };
 		1586406F180F5B52004B212B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		15864071180F5B52004B212B /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		15864072180F5B52004B212B /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		15864071180F5B52004B212B /* KTHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTHomeViewController.h; sourceTree = "<group>"; };
+		15864072180F5B52004B212B /* KTHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTHomeViewController.m; sourceTree = "<group>"; };
 		15864074180F5B52004B212B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1586407A180F5B52004B212B /* kiptalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kiptalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1586407B180F5B52004B212B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		15864083180F5B52004B212B /* kiptalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kiptalkTests-Info.plist"; sourceTree = "<group>"; };
 		15864085180F5B52004B212B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15864087180F5B52004B212B /* kiptalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kiptalkTests.m; sourceTree = "<group>"; };
-		15864095180F5CBB004B212B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = kiptalk/models/User.h; sourceTree = "<group>"; };
-		15864096180F5CBB004B212B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = kiptalk/models/User.m; sourceTree = "<group>"; };
+		15864095180F5CBB004B212B /* KTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTUser.h; path = kiptalk/models/KTUser.h; sourceTree = "<group>"; };
+		15864096180F5CBB004B212B /* KTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTUser.m; path = kiptalk/models/KTUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,11 +136,11 @@
 				15864094180F5C63004B212B /* controllers */,
 				15864093180F5C5C004B212B /* views */,
 				15864091180F5C3C004B212B /* models */,
-				1586406B180F5B52004B212B /* HomeAppDelegate.h */,
-				1586406C180F5B52004B212B /* HomeAppDelegate.m */,
+				1586406B180F5B52004B212B /* KTHomeAppDelegate.h */,
+				1586406C180F5B52004B212B /* KTHomeAppDelegate.m */,
 				1586406E180F5B52004B212B /* Main.storyboard */,
-				1547D084181C696800513492 /* MeViewController.h */,
-				1547D085181C696800513492 /* MeViewController.m */,
+				1547D084181C696800513492 /* KTMeViewController.h */,
+				1547D085181C696800513492 /* KTMeViewController.m */,
 				15864074180F5B52004B212B /* Images.xcassets */,
 				15864063180F5B52004B212B /* Supporting Files */,
 			);
@@ -179,16 +179,16 @@
 		15864091180F5C3C004B212B /* models */ = {
 			isa = PBXGroup;
 			children = (
-				1547D07B181C3E8000513492 /* Language.h */,
-				1547D07C181C3E8000513492 /* Language.m */,
-				15864095180F5CBB004B212B /* User.h */,
-				15864096180F5CBB004B212B /* User.m */,
-				1547D075181C3C9300513492 /* Post.h */,
-				1547D076181C3C9300513492 /* Post.m */,
-				1547D078181C3DF300513492 /* Expression.h */,
-				1547D079181C3DF300513492 /* Expression.m */,
-				1547D07E181C419400513492 /* Question.h */,
-				1547D07F181C419400513492 /* Question.m */,
+				1547D07B181C3E8000513492 /* KTLanguage.h */,
+				1547D07C181C3E8000513492 /* KTLanguage.m */,
+				15864095180F5CBB004B212B /* KTUser.h */,
+				15864096180F5CBB004B212B /* KTUser.m */,
+				1547D075181C3C9300513492 /* KTPost.h */,
+				1547D076181C3C9300513492 /* KTPost.m */,
+				1547D078181C3DF300513492 /* KTExpression.h */,
+				1547D079181C3DF300513492 /* KTExpression.m */,
+				1547D07E181C419400513492 /* KTQuestion.h */,
+				1547D07F181C419400513492 /* KTQuestion.m */,
 			);
 			name = models;
 			path = ..;
@@ -204,10 +204,10 @@
 		15864094180F5C63004B212B /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				15864071180F5B52004B212B /* HomeViewController.h */,
-				15864072180F5B52004B212B /* HomeViewController.m */,
-				1547D081181C647A00513492 /* AskViewController.h */,
-				1547D082181C647A00513492 /* AskViewController.m */,
+				15864071180F5B52004B212B /* KTHomeViewController.h */,
+				15864072180F5B52004B212B /* KTHomeViewController.m */,
+				1547D081181C647A00513492 /* KTAskViewController.h */,
+				1547D082181C647A00513492 /* KTAskViewController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -310,16 +310,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1547D083181C647A00513492 /* AskViewController.m in Sources */,
-				1547D07A181C3DF300513492 /* Expression.m in Sources */,
-				1547D077181C3C9300513492 /* Post.m in Sources */,
-				15864097180F5CBB004B212B /* User.m in Sources */,
-				1547D086181C696800513492 /* MeViewController.m in Sources */,
+				1547D083181C647A00513492 /* KTAskViewController.m in Sources */,
+				1547D07A181C3DF300513492 /* KTExpression.m in Sources */,
+				1547D077181C3C9300513492 /* KTPost.m in Sources */,
+				15864097180F5CBB004B212B /* KTUser.m in Sources */,
+				1547D086181C696800513492 /* KTMeViewController.m in Sources */,
 				15864069180F5B52004B212B /* main.m in Sources */,
-				1586406D180F5B52004B212B /* HomeAppDelegate.m in Sources */,
-				1547D080181C419400513492 /* Question.m in Sources */,
-				15864073180F5B52004B212B /* HomeViewController.m in Sources */,
-				1547D07D181C3E8000513492 /* Language.m in Sources */,
+				1586406D180F5B52004B212B /* KTHomeAppDelegate.m in Sources */,
+				1547D080181C419400513492 /* KTQuestion.m in Sources */,
+				15864073180F5B52004B212B /* KTHomeViewController.m in Sources */,
+				1547D07D181C3E8000513492 /* KTLanguage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

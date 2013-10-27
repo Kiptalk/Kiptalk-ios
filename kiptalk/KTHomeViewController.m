@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Armuro. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "KTHomeViewController.h"
 
 @interface HomeViewController ()
 

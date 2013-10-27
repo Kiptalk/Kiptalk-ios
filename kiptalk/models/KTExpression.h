@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 Armuro. All rights reserved.
 //
 
-#import "Post.h"
-#import "Question.h"
+#import "KTPost.h"
+#import "KTQuestion.h"
 
-@interface Expression : Post
+@interface KTExpression : KTPost
 
 //word limit, if any
 @property (readonly, nonatomic) NSUInteger wordLimit;

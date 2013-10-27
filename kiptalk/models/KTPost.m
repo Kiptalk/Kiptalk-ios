@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Armuro. All rights reserved.
 //
 
-#import "Post.h"
+#import "KTPost.h"
 
-@implementation Post
+@implementation KTPost
 
 @end

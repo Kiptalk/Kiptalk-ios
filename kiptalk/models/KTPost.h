@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Post : NSObject
+@interface KTPost : NSObject
 
 @property (strong, nonatomic) NSString *postID;
 @property (strong, nonatomic) NSString *content;

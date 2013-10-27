@@ -1,13 +1,15 @@
 //
-//  MeViewController.h
+//  Question.m
 //  kiptalk
 //
 //  Created by Armuro on 10/26/13.
 //  Copyright (c) 2013 Armuro. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "KTQuestion.h"
 
-@interface MeViewController : UIViewController
+@implementation KTQuestion
+
+
 
 @end

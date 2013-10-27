@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 Armuro. All rights reserved.
 //
 
-#import "Expression.h"
+#import "KTExpression.h"
 
 
 
-@implementation Expression
+@implementation KTExpression
 
 @end

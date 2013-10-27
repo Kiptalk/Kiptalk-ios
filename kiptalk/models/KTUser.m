@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Armuro. All rights reserved.
 //
 
-#import "User.h"
+#import "KTUser.h"
 
-@implementation User
+@implementation KTUser
 
 
 

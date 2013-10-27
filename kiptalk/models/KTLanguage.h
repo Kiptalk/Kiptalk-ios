@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Language : NSObject
+@interface KTLanguage : NSObject
 
 @property (strong, nonatomic) NSString *name;
 @property (nonatomic) NSUInteger level;

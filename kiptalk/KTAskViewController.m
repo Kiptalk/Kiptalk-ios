@@ -1,18 +1,44 @@
 //
-//  MeViewController.m
+//  AskViewController.m
 //  kiptalk
 //
 //  Created by Armuro on 10/26/13.
 //  Copyright (c) 2013 Armuro. All rights reserved.
 //
 
-#import "MeViewController.h"
+#import "KTAskViewController.h"
 
-@interface MeViewController ()
+@interface AskViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextView *questionContentTextView;
+
 
 @end
 
-@implementation MeViewController
+@implementation AskViewController
+
+
+- (void) updateUI{
+    
+    NSLog(@"update the UI");
+}
+
+
+//this function enlables camera and add the new taken photo to the questionContextTextView
+- (IBAction)takePhoto{
+    
+    
+    [self updateUI];
+    
+}
+
+
+- (IBAction)recordAudio {
+
+    [self updateUI];
+
+}
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

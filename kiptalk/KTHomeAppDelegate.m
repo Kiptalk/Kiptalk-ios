@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Armuro. All rights reserved.
 //
 
-#import "HomeAppDelegate.h"
+#import "KTHomeAppDelegate.h"
 
-@implementation HomeAppDelegate
+@implementation KTHomeAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
