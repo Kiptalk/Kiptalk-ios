@@ -113,6 +113,11 @@ xcuserdata
 #
 #
 
+# personal xcode GUI settings
+UserInterfaceState.xcuserstate
+# personal project repository settings
+*.xccheckout
+
 ####
 # Xcode 4 - Deprecated classes
 #
