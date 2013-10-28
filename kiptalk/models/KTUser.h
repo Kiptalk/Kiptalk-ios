@@ -46,14 +46,11 @@
 //stores an array of the native language(s) of the user
 @property (strong, nonatomic) NSMutableArray *nativeLanguages;
 
-//stores an array of the non-native language(s) of the user
-@property (strong, nonatomic) NSMutableArray *nonNativeLanguages;
+//stores an array of the language(s) the user specify that they can answer
+@property (strong, nonatomic) NSMutableArray *LanguagesToAnswer;
 
 //stores an array of the language(s) the user is learning
 @property (strong, nonatomic) NSMutableArray *targetLanguages;
-
-//stores an array of the native language(s) of the user
-@property (strong, nonatomic) KTLanguage *primaryLanguage;
 
 //stores the country of origin of the user
 @property (strong, nonatomic) NSString *countryOfOrigin;
@@ -121,7 +118,7 @@
 
 
 
-/** user operation on an expression **/
+/** Operation on Expressions **/
 
 //user likes an expression
 - (void) likeExpression:(KTExpression *) expression;
@@ -135,13 +132,22 @@
 //user flags an expression
 - (void) flagExpression: (KTExpression *) expression;
 
-/** user operation on a question **/
+
+
+/** Operation on Questions **/
+
+
+//user asks a question with urgency
+-(void) askQuestion: (KTQuestion *) question withTargetLanguage: (KTLanguage *) targetLanguage withUrgency:(BOOL) isUrgent;
 
 //user answers a question
 - (void) answerQuestion:(KTQuestion *) question withExpression:(KTExpression *) expression;
 
 //user follows a question
 - (void) followQuestion:(KTQuestion *) question;
+
+
+
 
 /** Social **/
 
@@ -160,6 +166,10 @@
 //user decreases credit
 - (void) decreaseCredit: (NSUInteger) credit;
                                 
-                                
+
+/** Profile **/
+
+
+
 
 @end

@@ -13,4 +13,9 @@
 //the dictionay that stores the references of the expressions associated with the current question. Keys are the ids of the expressions, and the values are the object instance of the expressions
 @property (strong, nonatomic) NSMutableDictionary *expressions;
 
+//the number of the expression to the current quesiton
+
+- (int) countExpression;
+
+
 @end

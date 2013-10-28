@@ -10,6 +10,14 @@
 
 @implementation KTQuestion
 
-
+-(int) countExpression{
+    
+    if (!self.expressions){
+        return 0;
+    }else{
+        return (int)[self.expressions count];
+    }
+    
+}
 
 @end
