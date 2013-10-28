@@ -28,6 +28,8 @@
 		15864086180F5B52004B212B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15864084180F5B52004B212B /* InfoPlist.strings */; };
 		15864088180F5B52004B212B /* kiptalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15864087180F5B52004B212B /* kiptalkTests.m */; };
 		15864097180F5CBB004B212B /* KTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15864096180F5CBB004B212B /* KTUser.m */; };
+		159004AF181DE11700D5A50C /* KTFollowingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159004AE181DE11700D5A50C /* KTFollowingViewController.m */; };
+		159004B2181DE6B200D5A50C /* KTComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 159004B1181DE6B200D5A50C /* KTComment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,10 @@
 		15864087180F5B52004B212B /* kiptalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kiptalkTests.m; sourceTree = "<group>"; };
 		15864095180F5CBB004B212B /* KTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTUser.h; path = kiptalk/models/KTUser.h; sourceTree = "<group>"; };
 		15864096180F5CBB004B212B /* KTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTUser.m; path = kiptalk/models/KTUser.m; sourceTree = "<group>"; };
+		159004AD181DE11700D5A50C /* KTFollowingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTFollowingViewController.h; sourceTree = "<group>"; };
+		159004AE181DE11700D5A50C /* KTFollowingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTFollowingViewController.m; sourceTree = "<group>"; };
+		159004B0181DE6B200D5A50C /* KTComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTComment.h; path = kiptalk/models/KTComment.h; sourceTree = "<group>"; };
+		159004B1181DE6B200D5A50C /* KTComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTComment.m; path = kiptalk/models/KTComment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +145,6 @@
 				1586406B180F5B52004B212B /* KTHomeAppDelegate.h */,
 				1586406C180F5B52004B212B /* KTHomeAppDelegate.m */,
 				1586406E180F5B52004B212B /* Main.storyboard */,
-				1547D084181C696800513492 /* KTMeViewController.h */,
-				1547D085181C696800513492 /* KTMeViewController.m */,
 				15864074180F5B52004B212B /* Images.xcassets */,
 				15864063180F5B52004B212B /* Supporting Files */,
 			);
@@ -179,6 +183,8 @@
 		15864091180F5C3C004B212B /* models */ = {
 			isa = PBXGroup;
 			children = (
+				159004B0181DE6B200D5A50C /* KTComment.h */,
+				159004B1181DE6B200D5A50C /* KTComment.m */,
 				1547D07B181C3E8000513492 /* KTLanguage.h */,
 				1547D07C181C3E8000513492 /* KTLanguage.m */,
 				15864095180F5CBB004B212B /* KTUser.h */,
@@ -204,6 +210,10 @@
 		15864094180F5C63004B212B /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				159004AD181DE11700D5A50C /* KTFollowingViewController.h */,
+				159004AE181DE11700D5A50C /* KTFollowingViewController.m */,
+				1547D084181C696800513492 /* KTMeViewController.h */,
+				1547D085181C696800513492 /* KTMeViewController.m */,
 				15864071180F5B52004B212B /* KTHomeViewController.h */,
 				15864072180F5B52004B212B /* KTHomeViewController.m */,
 				1547D081181C647A00513492 /* KTAskViewController.h */,
@@ -310,11 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159004B2181DE6B200D5A50C /* KTComment.m in Sources */,
 				1547D083181C647A00513492 /* KTAskViewController.m in Sources */,
 				1547D07A181C3DF300513492 /* KTExpression.m in Sources */,
 				1547D077181C3C9300513492 /* KTPost.m in Sources */,
 				15864097180F5CBB004B212B /* KTUser.m in Sources */,
 				1547D086181C696800513492 /* KTMeViewController.m in Sources */,
+				159004AF181DE11700D5A50C /* KTFollowingViewController.m in Sources */,
 				15864069180F5B52004B212B /* main.m in Sources */,
 				1586406D180F5B52004B212B /* KTHomeAppDelegate.m in Sources */,
 				1547D080181C419400513492 /* KTQuestion.m in Sources */,

@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import "KTLanguage.h"
+#import "KTExpression.h"
+#import "KTQuestion.h"
+#import "KTComment.h"
+
 
 @interface KTUser : NSObject
 
@@ -75,8 +79,6 @@
 //stores the longitude of the user
 @property (nonatomic) double longitude;
 
-
-
 //stores an array of the interests of topics that user will be subscribing to.
 @property (strong, nonatomic) NSMutableArray *interests;
 
@@ -108,6 +110,56 @@
 //stores the answers that the user has collected from questions.
 @property (strong, nonatomic) NSMutableDictionary *collectedExpressions;
 
+//stores the karma value of the user
+@property (readonly, nonatomic) int karma;
 
+//stores the credit value of the user
+@property (readonly, nonatomic) int credit;
+
+//stores the rank of the user based on his/her karma
+@property (readonly, nonatomic) NSUInteger userKarmaRank;
+
+
+
+/** user operation on an expression **/
+
+//user likes an expression
+- (void) likeExpression:(KTExpression *) expression;
+
+//user collects an expression
+- (void) collectExpression:(KTExpression *)expression;
+
+//user adds a comment to an expression
+- (void) addCommentToExpression:(KTExpression *) expression withComment:(KTComment *) comment;
+
+//user flags an expression
+- (void) flagExpression: (KTExpression *) expression;
+
+/** user operation on a question **/
+
+//user answers a question
+- (void) answerQuestion:(KTQuestion *) question withExpression:(KTExpression *) expression;
+
+//user follows a question
+- (void) followQuestion:(KTQuestion *) question;
+
+/** Social **/
+
+//user follows a user
+- (void) followUser: (KTUser *)user;
+
+//user increases karma
+- (void) increaseKarma: (NSUInteger) point;
+
+//user decreases karma
+- (void) decreaseKarma: (NSUInteger) point;
+
+//user increases credit
+- (void) increaseCredit: (NSUInteger) credit;
+
+//user decreases credit
+- (void) decreaseCredit: (NSUInteger) credit;
+                                
+                                
 
 @end
