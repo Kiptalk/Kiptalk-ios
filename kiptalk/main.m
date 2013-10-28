@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "HomeAppDelegate.h"
+#import "KTHomeAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([HomeAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([KTHomeAppDelegate class]));
     }
 }

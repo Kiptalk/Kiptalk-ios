@@ -38,13 +38,14 @@
 
 
 //user asks a question with urgency
--(void) askQuestion: (KTQuestion *) question withTargetLanguage: (KTLanguage *) targetLanguage withUrgency:(BOOL) isUrgent{
+-(void) addQuestion:(KTQuestion *)question{
     
 }
 
 //user answers a question
-- (void) answerQuestion:(KTQuestion *) question withExpression:(KTExpression *) expression{
+- (void) addExpression:(KTExpression *)expression toQuestion:(KTQuestion *)question{
     
+
 }
 
 //user follows a question
