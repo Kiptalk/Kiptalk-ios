@@ -15,7 +15,7 @@
 @property (readonly, nonatomic) NSUInteger wordLimit;
 
 //the reference of the question that the current expression is associted with
-@property (strong, nonatomic) KTQuestion *question;
+@property (strong, nonatomic) KTQuestion *questioning;
 
 //the number of likes on the current expression
 @property (nonatomic) int numOfLike;
