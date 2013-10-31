@@ -7,15 +7,18 @@
 //
 
 #import "KTAskViewController.h"
+#import "KTUser.h"
+#import "KTQuestion.h"
+#import "KTWebService.h"
 
-@interface AskViewController ()
+@interface KTAskViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextView *questionContentTextView;
 
 
 @end
 
-@implementation AskViewController
+@implementation KTAskViewController
 
 
 - (void) updateUI{
@@ -32,12 +35,45 @@
     
 }
 
+- (IBAction)chooseImage:(UIButton *)sender {
+    
+    
+    
+    
+    [self updateUI];
+}
 
 - (IBAction)recordAudio {
 
     [self updateUI];
 
 }
+
+
+
+- (IBAction)submitQuestion {
+    
+    //create a Question
+    KTQuestion *question = [[KTQuestion alloc] init];
+    
+    //construction question
+    
+    //TODO: check whether text is empty
+    question.content = self.questionContentTextView.text;
+    
+    //TODO: check media, image and add to the question
+    
+    
+    
+    //use KTWebService to submit the question
+    KTWebService *service = [[KTWebService alloc] init];
+    
+    //submit question
+    [service submitQuestion:question];
+    
+    
+}
+
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

@@ -10,4 +10,8 @@
 
 @interface KTComment : NSObject
 
+//the reference of the expression that the current comment is associated with.
+@property (strong, nonatomic) NSString *expressionID;
+
+
 @end

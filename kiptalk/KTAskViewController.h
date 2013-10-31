@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AskViewController : UIViewController
+@interface KTAskViewController : UIViewController
 
 
+@property (weak, nonatomic) IBOutlet UITextView *questionTextView;
 
 
 

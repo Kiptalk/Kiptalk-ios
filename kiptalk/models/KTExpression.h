@@ -7,7 +7,7 @@
 //
 
 #import "KTPost.h"
-#import "KTQuestion.h"
+#import "KTComment.h"
 
 @interface KTExpression : KTPost
 
@@ -15,7 +15,10 @@
 @property (readonly, nonatomic) NSUInteger wordLimit;
 
 //the reference of the question that the current expression is associted with
-@property (strong, nonatomic) KTQuestion *questioning;
+@property (strong, nonatomic) NSString *questionID;
+
+//the reference of the user that post the expression
+@property (strong, nonatomic) NSString *userID;
 
 //the number of likes on the current expression
 @property (nonatomic) int numOfLike;
@@ -29,6 +32,12 @@
 //the dictionay that stores the references of the comments associated with the current expression. Keys are the ids of the coments, and the values are the objects of the comments
 @property (strong, nonatomic) NSMutableDictionary *comments;
 
+
+//add an audio file to a question
+- (void) addAudio: (NSURL *) withPath;
+
+//add a comment to the current expression
+- (void) addComment: (KTComment *) comment;
 
 
 

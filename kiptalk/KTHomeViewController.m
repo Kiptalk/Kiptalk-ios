@@ -8,11 +8,11 @@
 
 #import "KTHomeViewController.h"
 
-@interface HomeViewController ()
+@interface KTHomeViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation KTHomeViewController
 
 - (void)viewDidLoad
 {

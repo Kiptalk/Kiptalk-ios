@@ -20,4 +20,10 @@
     
 }
 
+-(void) addExpression:(KTExpression *)expression{
+    
+}
+
+
+
 @end

@@ -13,6 +13,7 @@
 		1547D080181C419400513492 /* KTQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D07F181C419400513492 /* KTQuestion.m */; };
 		1547D083181C647A00513492 /* KTAskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D082181C647A00513492 /* KTAskViewController.m */; };
 		1547D086181C696800513492 /* KTMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547D085181C696800513492 /* KTMeViewController.m */; };
+		1558CB701820995900D07ACE /* KTWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1558CB6F1820995900D07ACE /* KTWebService.m */; };
 		1586405D180F5B52004B212B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1586405C180F5B52004B212B /* Foundation.framework */; };
 		1586405F180F5B52004B212B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1586405E180F5B52004B212B /* CoreGraphics.framework */; };
 		15864061180F5B52004B212B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15864060180F5B52004B212B /* UIKit.framework */; };
@@ -55,6 +56,8 @@
 		1547D082181C647A00513492 /* KTAskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTAskViewController.m; sourceTree = "<group>"; };
 		1547D084181C696800513492 /* KTMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTMeViewController.h; sourceTree = "<group>"; };
 		1547D085181C696800513492 /* KTMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTMeViewController.m; sourceTree = "<group>"; };
+		1558CB6E1820995900D07ACE /* KTWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTWebService.h; path = kiptalk/KTWebService.h; sourceTree = "<group>"; };
+		1558CB6F1820995900D07ACE /* KTWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTWebService.m; path = kiptalk/KTWebService.m; sourceTree = "<group>"; };
 		15864059180F5B52004B212B /* kiptalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kiptalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1586405C180F5B52004B212B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1586405E180F5B52004B212B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,6 +112,8 @@
 		15864050180F5B52004B212B = {
 			isa = PBXGroup;
 			children = (
+				1558CB6E1820995900D07ACE /* KTWebService.h */,
+				1558CB6F1820995900D07ACE /* KTWebService.m */,
 				15864062180F5B52004B212B /* kiptalk */,
 				15864081180F5B52004B212B /* kiptalkTests */,
 				1586405B180F5B52004B212B /* Frameworks */,
@@ -325,6 +330,7 @@
 				1547D07A181C3DF300513492 /* KTExpression.m in Sources */,
 				1547D077181C3C9300513492 /* KTPost.m in Sources */,
 				15864097180F5CBB004B212B /* KTUser.m in Sources */,
+				1558CB701820995900D07ACE /* KTWebService.m in Sources */,
 				1547D086181C696800513492 /* KTMeViewController.m in Sources */,
 				159004AF181DE11700D5A50C /* KTFollowingViewController.m in Sources */,
 				15864069180F5B52004B212B /* main.m in Sources */,
