@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KTDoubleListTableViewController.h"
 
-@interface KTFollowingViewController : UIViewController
+@interface KTFollowingViewController : KTDoubleListTableViewController
 
 @end
